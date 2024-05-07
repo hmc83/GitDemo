@@ -1,0 +1,15 @@
+C:\Users\centr\Desktop\CitiesManagerSolution\CitiesManager.Infrastructure\obj\Debug\net6.0\CitiesManager.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\centr\Desktop\CitiesManagerSolution\CitiesManager.Infrastructure\obj\Debug\net6.0\CitiesManager.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\centr\Desktop\CitiesManagerSolution\CitiesManager.Infrastructure\obj\Debug\net6.0\CitiesManager.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\centr\Desktop\CitiesManagerSolution\CitiesManager.Infrastructure\obj\Debug\net6.0\CitiesManager.Infrastructure.AssemblyInfo.cs
+C:\Users\centr\Desktop\CitiesManagerSolution\CitiesManager.Infrastructure\obj\Debug\net6.0\CitiesManager.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\centr\Desktop\CitiesManagerSolution\CitiesManager.Infrastructure\bin\Debug\net6.0\CitiesManager.Infrastructure.deps.json
+C:\Users\centr\Desktop\CitiesManagerSolution\CitiesManager.Infrastructure\bin\Debug\net6.0\CitiesManager.Infrastructure.dll
+C:\Users\centr\Desktop\CitiesManagerSolution\CitiesManager.Infrastructure\bin\Debug\net6.0\CitiesManager.Infrastructure.pdb
+C:\Users\centr\Desktop\CitiesManagerSolution\CitiesManager.Infrastructure\bin\Debug\net6.0\CitiesManager.Core.dll
+C:\Users\centr\Desktop\CitiesManagerSolution\CitiesManager.Infrastructure\bin\Debug\net6.0\CitiesManager.Core.pdb
+C:\Users\centr\Desktop\CitiesManagerSolution\CitiesManager.Infrastructure\obj\Debug\net6.0\CitiesMa.A7AC7DC8.Up2Date
+C:\Users\centr\Desktop\CitiesManagerSolution\CitiesManager.Infrastructure\obj\Debug\net6.0\CitiesManager.Infrastructure.dll
+C:\Users\centr\Desktop\CitiesManagerSolution\CitiesManager.Infrastructure\obj\Debug\net6.0\refint\CitiesManager.Infrastructure.dll
+C:\Users\centr\Desktop\CitiesManagerSolution\CitiesManager.Infrastructure\obj\Debug\net6.0\CitiesManager.Infrastructure.pdb
+C:\Users\centr\Desktop\CitiesManagerSolution\CitiesManager.Infrastructure\obj\Debug\net6.0\ref\CitiesManager.Infrastructure.dll

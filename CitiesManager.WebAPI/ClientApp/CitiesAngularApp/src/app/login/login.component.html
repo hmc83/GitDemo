@@ -1,0 +1,44 @@
+<div class="w-75 margin-auto">
+  <div class="form-container">
+
+    <h2>Login</h2>
+
+    <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+
+      <div class="form-field flex">
+        <div class="w-25">
+          <label for="email" class="form-label pt">Email</label>
+        </div>
+        <div>
+          <input type="text" id="email" class="form-input" formControlName="email" />
+          <div *ngIf="loginForm.get('email').invalid && loginForm.get('email').touched">
+            <div class="text-red" *ngIf="loginForm.get('email').errors['required']">Email can't be blank</div>
+            <div class="text-red" *ngIf="loginForm.get('email').errors['email']">Email should be in a proper format</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-field flex">
+        <div class="w-25">
+          <label for="password" class="form-label pt">Password</label>
+        </div>
+        <div>
+          <input type="text" id="password" class="form-input" formControlName="password" />
+          <div *ngIf="loginForm.get('password').invalid && loginForm.get('password').touched">
+            <span class="text-red" *ngIf="loginForm.get('password').errors['required']">Password can't be blank</span>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="form-field flex">
+        <div class="w-25">
+        </div>
+        <div class="flex-1">
+          <button type="submit" class="button button-green-back">Login</button>
+        </div>
+      </div>
+
+    </form>
+  </div>
+</div>

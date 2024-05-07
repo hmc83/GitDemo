@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CitiesManager.WebAPI</name>
+    </assembly>
+    <members>
+        <member name="M:CitiesManager.Infrastructure.Controllers.v1.CitiesController.GetCities">
+            <summary>
+                Get all cities from the database
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CitiesManager.Infrastructure.Controllers.v1.CitiesController.GetCity(System.Guid)">
+            <summary>
+                Retrieve the city from the database with a particular id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,67 @@
+# .gitignore for ASP.NET Core projects
+
+# Built application files
+*/[Bb]in/
+*/[Oo]bj/
+
+# MSTest test Results
+[Tt]est[Rr]esults/
+[Bb]uild[Ll]og.*
+
+# NUnit
+*.VisualState.xml
+TestResult.xml
+nunit-*.xml
+
+# Build artifacts
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+bld/
+Build/
+
+# Visual Studio 2015/2017/2019 cache/options directory
+.vs/
+.vscode/
+
+# ReSharper & Rider
+_ReSharper*/
+.idea/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# .NET Core SDK style web projects store build artifacts in the root 'artifacts' folder
+artifacts/
+
+# Ignore ASP.NET Scaffolding Log
+ScaffoldingReadMe.txt
+
+# NuGet Packages Directory
+# Uncomment if you are not using PackageReference and are using packages.config instead
+# packages/
+
+# Package Store from .NET Core
+# Ref: https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-nuget-globals
+packagestore/
+
+# Others
+node_modules/
+bower_components/
+*.[Cc]ache
+*.bak
+*.tmp
+*.log
+*.sql
+*.sqlite
+project.lock.json
+ProjectSettings.json
+*.swp
+*DS_Store
+*.idea/
+*.dbmdl
+*.db_schemas

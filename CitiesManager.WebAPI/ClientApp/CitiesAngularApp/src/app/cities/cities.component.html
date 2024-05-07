@@ -1,0 +1,68 @@
+<h1>Cities</h1>
+
+<div class="flex">
+  <div class="flex-1 w-50">
+    <div class="table-container">
+      <table class="table w-100">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>City Id</th>
+            <th>City Name</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let city of cities; let i = index">
+            <td>{{i+1}}</td>
+            <td>{{city.cityID}}</td>
+            <td>
+              <input type="text" [(ngModel)]="city.cityName" [disabled]="city.cityID !== editCityID" [ngClass]="{'border-less-textbox': city.cityID !== editCityID, 'form-input': city.cityID == editCityID}" />
+            </td>
+            <td style="width: 200px">
+              <button type="button" class="button button-blue-back" (click)="editClicked(city)" *ngIf="city.cityID !== editCityID">Edit</button>
+              <button type="button" class="button button-blue-back" (click)="updateClicked(city)" *ngIf="city.cityID == editCityID">Update</button>
+              <button type="button" class="button button-red-back ml" (click)="deleteClicked(city)" *ngIf="city.cityID !== editCityID">Delete</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <button type="button" class="button button-blue-back mt" (click)="refreshClicked()">Refresh</button>
+  </div>
+
+  <div class="flex-1 w-50">
+    <div class="form-container">
+      <h3>Create City</h3>
+
+      <form [formGroup]="cityForm" (ngSubmit)="onSubmit()">
+
+        <div class="form-field flex">
+          <div class="w-25">
+            <label for="CityName" class="form-label pt">City Name</label>
+          </div>
+
+          <div class="flex-1">
+            <input type="text" class="form-input" formControlName="cityName" id="CityName" />
+            <div *ngIf="cityForm.get('cityName').invalid&&cityForm.get('cityName').touched">
+              <span *ngIf="cityForm.get('cityName').errors['required']" class="text-red">City Name is required</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-field flex">
+          <div class="w-25"></div>
+          <div class="flex-1">
+            <button class="button button-green-back" type="submit" [disabled]="cityForm.invalid">Create</button>
+          </div>
+        </div>
+
+      </form>
+
+    </div>
+  </div>
+</div>
+
+
+
+
